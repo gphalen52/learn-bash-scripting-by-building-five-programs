@@ -64,3 +64,4 @@ echo hello bash
 touch questionnaire.sh
 cd questionnaire.sh
 echo "echo hello questionnaire" >> questionnaire.sh
+sh questionnaire.sh
