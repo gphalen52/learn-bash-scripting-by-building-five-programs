@@ -67,3 +67,5 @@ echo "echo hello questionnaire" >> questionnaire.sh
 sh questionnaire.sh
 bash questionnaire.sh
 which bash
+sed -i '1i #!/bin/bash' your_script_file.sh
+sed -i '1i #!/bin/bash' questionnaire.sh
