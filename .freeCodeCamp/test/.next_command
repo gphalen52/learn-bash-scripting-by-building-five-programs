@@ -71,3 +71,4 @@ sed -i '1i #!/bin/bash' your_script_file.sh
 sed -i '1i #!/bin/bash' questionnaire.sh
 ./questionnaire.sh
 ls --color=auto -l project
+chmod +x questionnaire.sh
