@@ -76,3 +76,10 @@ ls --color=auto -l project
 ./questionnaire.sh
 echo "ls -l" >> questionnaire.sh
 ./questionnaire.sh
+sed -n '1p' file
+sed -n '1p' questionnaire.sh
+./questionnaire.sh
+head -n 1 questionnaire.sh
+sed -i '1{s/\(#!.*\)/\1/;p}' questionnaire.sh
+./questionnaire.sh
+sed -i '1!d' questionnaire.sh
