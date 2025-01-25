@@ -83,3 +83,4 @@ head -n 1 questionnaire.sh
 sed -i '1{s/\(#!.*\)/\1/;p}' questionnaire.sh
 ./questionnaire.sh
 sed -i '1!d' questionnaire.sh
+QUESTION1="What's your name?"
